@@ -10,9 +10,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CreateMythicMetallurgy.MOD_ID, "crushed_metals"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.crushed_metals"))
+    public static final ItemGroup CRUSHED_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(CreateMythicMetallurgy.MOD_ID, "mythic_metallurgy"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mythic_metallurgy"))
                     .icon(() -> new ItemStack(ModItems.CRUSHED_RAW_ADAMANTITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CRUSHED_RAW_ADAMANTITE);
                         entries.add(ModItems.CRUSHED_RAW_AQUARIUM);
