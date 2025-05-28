@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_aquarium"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mythicmetals:aquarium_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:prismarine_shard"
+    }
+  ]
+}

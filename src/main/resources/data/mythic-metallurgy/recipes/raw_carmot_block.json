@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_carmot_block"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_carmot",
+      "count": 9
+    }
+  ]
+}

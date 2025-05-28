@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_adamantite_block"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_adamantite",
+      "count": 9
+    }
+  ]
+}
