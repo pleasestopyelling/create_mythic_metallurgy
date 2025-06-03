@@ -24,6 +24,7 @@ repositories {
 	maven { url = "https://maven.tterrag.com/" } // Flywheel
 	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
 	maven { url = "https://maven.wispforest.io/" } // owo
+	maven { url = "https://maven.shedaniel.me" } // REI
 
 	maven { // Cardinal Components
 	name = "Ladysnake Mods"
@@ -73,7 +74,7 @@ dependencies {
 
 	//Other
 	modLocalRuntime("com.terraformersmc:modmenu:$modmenu_version")
-	modLocalRuntime("mezz.jei:jei-$minecraft_version-fabric:$jei_version")
+	modLocalRuntime("me.shedaniel:RoughlyEnoughItems-fabric:$rei_version")
 	
 }
 

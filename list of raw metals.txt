@@ -19,3 +19,5 @@ raw_tin
 
 osmium platinum silver and tin already have crushed ores, but the recipe raw ore -> crushed ore is still needed
 but raw ore block -> 9 crushed ore does exist for some reason, so just do raw ore -> crushed ore
+
+also dont forget morkite starrite and unobtainium - add crushing recipes for their ores
