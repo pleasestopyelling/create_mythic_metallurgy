@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_runite"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mythicmetals:runite_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "create:zinc_nugget"
+    }
+  ]
+}

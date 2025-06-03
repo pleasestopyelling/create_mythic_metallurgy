@@ -2,13 +2,13 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "mythicmetals:raw_carmot_block"
+      "item": "mythicmetals:raw_orichalcum_block"
     }
   ],
   "processingTime": 350,
   "results": [
     {
-      "item": "mythic-metallurgy:crushed_raw_carmot",
+      "item": "mythic-metallurgy:crushed_raw_orichalcum",
       "count": 9
     },
     {

@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mythicmetals:runite_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_runite"
+    },
+    {
+      "chance": 0.5,
+      "item": "mythic-metallurgy:crushed_raw_runite"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.12,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

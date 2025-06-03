@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_orichalcum"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mythicmetals:orichalcum_nugget"
+    },
+    {
+      "chance": 0.35,
+      "item": "create:brass_nugget"
+    }
+  ]
+}

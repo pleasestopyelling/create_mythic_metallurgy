@@ -2,13 +2,13 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "mythicmetals:raw_carmot_block"
+      "item": "mythicmetals:raw_quadrillum_block"
     }
   ],
   "processingTime": 350,
   "results": [
     {
-      "item": "mythic-metallurgy:crushed_raw_carmot",
+      "item": "mythic-metallurgy:crushed_raw_quadrillum",
       "count": 9
     },
     {

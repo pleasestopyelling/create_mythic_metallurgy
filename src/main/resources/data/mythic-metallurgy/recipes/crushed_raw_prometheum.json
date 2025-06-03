@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_prometheum"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mythicmetals:prometheum_nugget"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:moss_block"
+    },
+    {
+      "chance": 0.4,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

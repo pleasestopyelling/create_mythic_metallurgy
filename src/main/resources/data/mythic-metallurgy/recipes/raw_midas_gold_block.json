@@ -10,6 +10,11 @@
     {
       "item": "mythic-metallurgy:crushed_raw_midas_gold",
       "count": 9
+    },
+    {
+      "chance": 0.75,
+      "count": 9,
+      "item": "create:experience_nugget"
     }
   ]
 }

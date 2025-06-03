@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_palladium"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mythicmetals:palladium_nugget"
+    },
+    {
+      "chance": 0.35,
+      "item": "mythicmetals:platinum_nugget"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:netherite_scrap"
+    }
+  ]
+}

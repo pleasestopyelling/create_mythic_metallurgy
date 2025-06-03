@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_stormyx"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mythicmetals:stormyx_nugget"
+    },
+    {
+      "chance": 0.3,
+      "item": "mythicmetals:palladium_nugget"
+    }
+  ]
+}

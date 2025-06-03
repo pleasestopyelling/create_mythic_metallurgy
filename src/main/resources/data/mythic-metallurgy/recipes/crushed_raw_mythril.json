@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_mythril"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mythicmetals:mythril_nugget"
+    },
+    {
+      "chance": 0.4,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.2,
+      "item": "create:copper_nugget"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mythicmetals:unobtainium_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "mythicmetals:unobtainium"
+    },
+    {
+      "chance": 0.5,
+      "item": "mythicmetals:unobtainium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.12,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}

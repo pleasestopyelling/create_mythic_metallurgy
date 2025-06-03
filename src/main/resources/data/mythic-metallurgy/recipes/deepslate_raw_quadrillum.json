@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mythicmetals:deepslate_quadrillum_ore"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "mythic-metallurgy:crushed_raw_quadrillum"
+    },
+    {
+      "chance": 0.5,
+      "item": "mythic-metallurgy:crushed_raw_quadrillum"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.12,
+      "item": "minecraft:deepslate"
+    }
+  ]
+}
