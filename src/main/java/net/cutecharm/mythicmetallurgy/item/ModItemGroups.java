@@ -32,6 +32,6 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups() {
-        CreateMythicMetallurgy.LOGGER.info("Registering item groups for" + CreateMythicMetallurgy.MOD_ID);
+        CreateMythicMetallurgy.LOGGER.info("Registering item groups for " + CreateMythicMetallurgy.MOD_ID);
     }
 }

@@ -8,8 +8,7 @@
 		"please stop yelling"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": ""
 	},
 	"license": "MIT",
 	"icon": "assets/mythic-metallurgy/icon.png",
