@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crushed_raw_midas_gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic-metallurgy:crushed_raw_midas_gold"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:midas_gold_ingot_from_smelting_crushed_raw_midas_gold"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crushed_raw_midas_gold",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:midas_gold_ingot_from_smelting_crushed_raw_midas_gold"
+    ]
+  },
+  "sends_telemetry_event": false
+}

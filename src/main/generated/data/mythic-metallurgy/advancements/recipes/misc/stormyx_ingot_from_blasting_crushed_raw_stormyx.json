@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crushed_raw_stormyx": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic-metallurgy:crushed_raw_stormyx"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stormyx_ingot_from_blasting_crushed_raw_stormyx"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crushed_raw_stormyx",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stormyx_ingot_from_blasting_crushed_raw_stormyx"
+    ]
+  },
+  "sends_telemetry_event": false
+}
