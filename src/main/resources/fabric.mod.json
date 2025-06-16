@@ -32,6 +32,6 @@
 		"mythicmetals": ">=0.19.9+1.20.1"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"create": "0.5.1-j-build.1631+mc1.20.1"
 	}
 }
