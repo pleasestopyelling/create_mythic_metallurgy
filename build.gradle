@@ -64,7 +64,7 @@ dependencies {
 
 	//The fun part
 	modLocalRuntime("com.simibubi.create:create-fabric-$project.minecraft_version:$create_version")
-	modLocalRuntime("maven.modrinth:bAWzYNRd:$project.mythic_metals_version")
+	modImplementation("maven.modrinth:bAWzYNRd:$project.mythic_metals_version")
 	modLocalRuntime("io.wispforest:owo-lib:$project.owo_version")
 	//include "io.wispforest:owo-sentinel:$project.owo_version"
 	modLocalRuntime("maven.modrinth:alloy-forgery:$project.alloyforgery_version")
@@ -87,7 +87,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-	it.options.release = 21
+	it.options.release = 17
 }
 
 java {
@@ -96,7 +96,7 @@ java {
 	// If you remove this line, sources will not be generated.
 	withSourcesJar()
 
-	sourceCompatibility = JavaVersion.VERSION_21
+	sourceCompatibility = JavaVersion.VERSION_17
 	targetCompatibility = JavaVersion.VERSION_17
 }
 
